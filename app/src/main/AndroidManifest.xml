@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.x_ogame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mm"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mm"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.x_OGame">
+        <activity android:name=".game"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
